@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.versao.apppet">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Fragment.ServicosPetshopFragment"></activity>
+        <activity android:name=".Fragment.InfoPetshopFragment" />
+        <activity android:name=".Activity.PagamentoActivity" />
+        <activity android:name=".Adapter.PetCadastroAdapter" />
+        <activity android:name=".Activity.AddPetActivity" />
+        <activity android:name=".Activity.PetCadastradoActivity" />
+        <activity android:name=".Activity.MeuPetActivity" />
+        <activity android:name=".Activity.InformacoesUsuario" />
+        <activity android:name=".Fragment.HistoricoPedidosFragment" />
+        <activity android:name=".Fragment.HistoricoPresencialFragment" />
+        <activity android:name=".Adapter.AdapterCarrinho" />
+        <activity android:name=".Adapter.AdapterListaPetshop" />
+        <activity android:name=".Activity.HistoricoActivity" />
+        <activity android:name=".Fragment.AgendaFragment" />
+        <activity android:name=".Fragment.CarrinhoFragment" />
+        <activity android:name=".Fragment.ListaPetShopFragment" />
+        <activity android:name=".Activity.ListaCarrinhoAgendaActivity" />
+        <activity
+            android:name=".Activity.MenuCliente"
+            android:label="@string/title_activity_menu__cliente"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.Cadastro2" />
+        <activity android:name=".Activity.Cadastro1" />
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

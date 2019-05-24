@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/ic_lista_petshop"
+        android:icon="@drawable/ic_format_list_bulleted_white_24dp"
+        android:title="PetShop"/>
+
+
+    <item android:id="@+id/ic_carrinho"
+        android:icon="@drawable/ic_shopping_cart_white_24dp"
+        android:title="Carrinho"/>
+
+
+    <item android:id="@+id/ic_agenda"
+        android:icon="@drawable/ic_today_white_24dp"
+        android:title="Agenda"/>
+
+
+
+</menu>

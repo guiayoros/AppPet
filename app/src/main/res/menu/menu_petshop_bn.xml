@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/informacoes_petshop"
+        android:title="INFORMAÇÕES"/>
+
+
+    <item android:id="@+id/servicos_petshop"
+    android:title="SERVIÇOS"/>
+
+
+    <item android:id="@+id/produtos_petshop"
+        android:title="PRODUTOS"/>
+</menu>
